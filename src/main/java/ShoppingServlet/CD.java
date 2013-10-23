@@ -1,4 +1,6 @@
 package ShoppingServlet;
+
+
 public class CD {
   String album;
   String artist;

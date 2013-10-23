@@ -16,6 +16,8 @@ public class ShoppingServlet extends HttpServlet {
     if (session == null) {
       res.sendRedirect("http://localhost:8080/error.html");
     }
+    
+    
     Vector buylist=
       (Vector)session.getValue("Shopping.shoppingcart");
     String action = req.getParameter("action");
